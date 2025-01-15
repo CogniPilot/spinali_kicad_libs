@@ -1,4 +1,4 @@
-(footprint "XCVR_AFBR-S50LV85D"
+(footprint "AFBR-S50xxxxx"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -14,7 +14,7 @@
 			)
 		)
 	)
-	(property "Value" "XCVR_AFBR-S50LV85D"
+	(property "Value" "AFBR-S50xxxxx"
 		(at 5.28 5.215 0)
 		(layer "F.Fab")
 		(uuid "f3733b9e-5576-49fd-b630-0c45df265167")
@@ -339,7 +339,7 @@
 		(solder_mask_margin 0.102)
 		(uuid "34c2f487-030e-4f1a-a7d0-8ae984218bb5")
 	)
-	(model "${SPINALI_3DMODEL_DIR}/AFBR-S50LV85D0.step"
+	(model "${SPINALI_3DMODEL_DIR}/AFBR-S50xxxxx.step"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -5,7 +5,7 @@
 	(layer "F.Cu")
 	(descr "SOT782-1")
 	(tags "Integrated Circuit")
-	(property "Reference" "IC**"
+	(property "Reference" "REF**"
 		(at 0 -2.9 0)
 		(layer "F.SilkS")
 		(uuid "41e06f2f-dadb-432b-8f4b-c68a33bb47db")

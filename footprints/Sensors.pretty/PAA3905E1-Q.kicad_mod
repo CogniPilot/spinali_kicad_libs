@@ -68,8 +68,8 @@
 	)
 	(attr smd)
 	(fp_rect
-		(start -2.6 -2.1)
-		(end 2.6 2.1)
+		(start -2.65 -2.15)
+		(end 2.65 2.15)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -80,7 +80,7 @@
 	)
 	(fp_circle
 		(center -3 -1.625)
-		(end -2.8 -1.625)
+		(end -2.9 -1.625)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -90,8 +90,8 @@
 		(uuid "28d522f1-ed1e-4693-bb00-bac0acb089b2")
 	)
 	(fp_rect
-		(start -2.65 -2.15)
-		(end 2.65 2.15)
+		(start -2.55 -2.05)
+		(end 2.55 2.05)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -99,6 +99,17 @@
 		(fill none)
 		(layer "F.CrtYd")
 		(uuid "1b825d30-a79b-43e4-8a7a-b8a56f83b483")
+	)
+	(fp_rect
+		(start -2.5 -2)
+		(end 2.5 2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "77acda22-ff79-4e7d-bdc0-7aa93d5eaa64")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 4.6 0)
@@ -238,5 +249,16 @@
 		(chamfer top_right bottom_right)
 		(thermal_bridge_angle 45)
 		(uuid "ad6721f2-bc8b-4cfa-b248-bc242aa097bd")
+	)
+	(model "${SPINALI_3DMODEL_DIR}/PAA3905.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
 	)
 )
