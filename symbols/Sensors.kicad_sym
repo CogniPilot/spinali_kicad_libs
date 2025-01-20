@@ -1389,7 +1389,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -40.386 18.542 0)
+			(at -40.386 17.272 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1398,7 +1398,7 @@
 			)
 		)
 		(property "Value" "ICM-45686"
-			(at -40.132 -8.636 0)
+			(at -40.132 -9.906 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1476,8 +1476,8 @@
 		)
 		(symbol "ICM-45686_0_0"
 			(rectangle
-				(start -40.64 17.78)
-				(end 5.08 -7.62)
+				(start -40.64 16.51)
+				(end 5.08 -8.89)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -1486,8 +1486,8 @@
 					(type background)
 				)
 			)
-			(pin bidirectional line
-				(at -45.72 2.54 0)
+			(pin output line
+				(at -45.72 8.89 0)
 				(length 5.08)
 				(name "AP_SDO/AP_AD0"
 					(effects
@@ -1505,7 +1505,7 @@
 				)
 			)
 			(pin input line
-				(at 10.16 5.08 180)
+				(at -45.72 -6.35 0)
 				(length 5.08)
 				(name "RESV/AUX1_CS"
 					(effects
@@ -1523,7 +1523,7 @@
 				)
 			)
 			(pin output line
-				(at 10.16 7.62 180)
+				(at -45.72 -3.81 0)
 				(length 5.08)
 				(name "RESV/AUX1_SDO"
 					(effects
@@ -1541,7 +1541,7 @@
 				)
 			)
 			(pin input line
-				(at -45.72 12.7 0)
+				(at -45.72 6.35 0)
 				(length 5.08)
 				(name "AP_CS"
 					(effects
@@ -1559,7 +1559,7 @@
 				)
 			)
 			(pin input clock
-				(at -45.72 10.16 0)
+				(at -45.72 13.97 0)
 				(length 5.08)
 				(name "AP_SCL/AP_SCLK"
 					(effects
@@ -1577,7 +1577,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -45.72 7.62 0)
+				(at -45.72 11.43 0)
 				(length 5.08)
 				(name "AP_SDA/AP_SDIO/AP_SDI"
 					(effects
@@ -1595,7 +1595,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -45.72 0 0)
+				(at -45.72 -1.27 0)
 				(length 5.08)
 				(name "RESV/AUX1_SDIO/AUX1_SDI/MAS_DA"
 					(effects
@@ -1612,8 +1612,8 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at -45.72 -2.54 0)
+			(pin input line
+				(at -45.72 1.27 0)
 				(length 5.08)
 				(name "RESV/AUX1_SCLK/MAS_CLK"
 					(effects
@@ -1631,7 +1631,7 @@
 				)
 			)
 			(pin output line
-				(at -45.72 -5.08 0)
+				(at 10.16 6.35 180)
 				(length 5.08)
 				(name "INT1/INT"
 					(effects
@@ -1649,7 +1649,7 @@
 				)
 			)
 			(pin power_in line
-				(at 10.16 12.7 180)
+				(at 10.16 11.43 180)
 				(length 5.08)
 				(name "VDDIO"
 					(effects
@@ -1667,7 +1667,7 @@
 				)
 			)
 			(pin power_in line
-				(at 10.16 -5.08 180)
+				(at 10.16 -6.35 180)
 				(length 5.08)
 				(name "GND"
 					(effects
@@ -1684,9 +1684,9 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 10.16 0 180)
-				(length 5.08)
+			(pin no_connect line
+				(at 10.16 1.27 180)
+				(length 5.08) hide
 				(name "RESV"
 					(effects
 						(font
@@ -1703,7 +1703,7 @@
 				)
 			)
 			(pin power_in line
-				(at 10.16 15.24 180)
+				(at 10.16 13.97 180)
 				(length 5.08)
 				(name "VDD"
 					(effects
@@ -1721,7 +1721,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 10.16 2.54 180)
+				(at 10.16 3.81 180)
 				(length 5.08)
 				(name "INT2/FSYNC/CLKIN"
 					(effects
