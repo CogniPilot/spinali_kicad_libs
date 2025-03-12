@@ -1,0 +1,173 @@
+(footprint "VLS5045EX330M"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "VLS5045")
+	(tags "Inductor")
+	(property "Reference" "L**"
+		(at 0 -3.6 0)
+		(layer "F.SilkS")
+		(uuid "5134c538-a734-481d-a6df-2da1585cdbdf")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "VLS5045EX330M"
+		(at 0 6.4 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "4d7fa550-6e84-46b4-8c70-041547e7797f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8e5a51a4-52a0-43ac-a423-1544a8c67b8a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a23162f9-a85d-47ac-950b-7837122bac64")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ae1ad6bb-0baf-405a-9c52-688a31f0b44b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.5 -2.5)
+		(end 2.5 -2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "aeee106d-27fa-4782-837f-412aa8b2bd61")
+	)
+	(fp_line
+		(start -2.5 2.5)
+		(end 2.54 2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a6cf9dfa-5d48-45a2-8e5d-9f30e132947e")
+	)
+	(fp_rect
+		(start -2.6 -2.6)
+		(end 2.6 2.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "74be100a-9afa-4c1b-92c1-352c0e3cf62c")
+	)
+	(fp_line
+		(start -2.5 -2.5)
+		(end 2.5 -2.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8e10402a-8cca-4eb4-8b98-434797878a57")
+	)
+	(fp_line
+		(start -2.5 2.5)
+		(end -2.5 -2.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8e1f4fa9-f228-4edc-af99-1a071e761417")
+	)
+	(fp_line
+		(start 2.5 -2.5)
+		(end 2.5 2.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4a8f52f4-c4c4-499a-80b4-ee340cd96543")
+	)
+	(fp_line
+		(start 2.5 2.5)
+		(end -2.5 2.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "dc8332db-80a8-437c-a53d-bf271d500c0e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 4.6 0)
+		(layer "F.Fab")
+		(uuid "aeb0ea58-2b35-4850-bcd8-be99abafcfbe")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.8 0)
+		(size 1.5 4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "cab78e76-dee8-410a-9c0d-e2796336a406")
+	)
+	(pad "2" smd rect
+		(at 1.8 0)
+		(size 1.5 4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "5627049e-099e-4b17-b74f-270088d0bd6a")
+	)
+	(model "${SPINALI_3DMODEL_DIR}/VLS5045EX-330M-H.stp"
+		(offset
+			(xyz 0 0 2.249999966)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

@@ -1,0 +1,231 @@
+(footprint "BUK6D5660EX"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "BUK6D56-60EX")
+	(tags "MOSFET (N-Channel)")
+	(property "Reference" "Q**"
+		(at 0 -2.1 0)
+		(layer "F.SilkS")
+		(uuid "b40e1418-166e-4ce6-8868-2a26706a81f4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "BUK6D5660EX"
+		(at 0 5.3 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "e54352e3-85ec-42aa-8369-c82169bd52e5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d0f3cc9b-5c03-4107-aff6-8f47161fa0be")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "65dd4a3a-f8de-496c-8c51-201013ad4753")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a2d6ab78-0fd4-4b82-947e-9a4dea29e960")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.7 -0.65)
+		(end -1.7 -0.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7ce8b074-300d-4fa6-b6cf-153712c0487a")
+	)
+	(fp_line
+		(start -1.6 -0.65)
+		(end -1.6 -0.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2690231e-8328-4840-8652-533e9960f345")
+	)
+	(fp_arc
+		(start -1.7 -0.65)
+		(mid -1.65 -0.7)
+		(end -1.6 -0.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6794d1e4-ac3c-4685-b655-47131768c40c")
+	)
+	(fp_arc
+		(start -1.6 -0.65)
+		(mid -1.65 -0.6)
+		(end -1.7 -0.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "271473ef-9c15-4ca3-a0fa-f64f791c8446")
+	)
+	(fp_rect
+		(start -1.2 -1.1)
+		(end 1.2 1.1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "635c5841-1a9b-4208-ad24-a0675bdaf711")
+	)
+	(fp_line
+		(start -1 -1)
+		(end 1 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "63585059-3960-415a-9bf6-df092fabe92b")
+	)
+	(fp_line
+		(start -1 1)
+		(end -1 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "18dd69a3-f396-4ae8-8ef8-9639424c7416")
+	)
+	(fp_line
+		(start 1 -1)
+		(end 1 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "61015eda-a33d-4e2f-b2fb-8c50a969946d")
+	)
+	(fp_line
+		(start 1 1)
+		(end -1 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "32229e13-70b3-4d7a-a096-86b50b8d391b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 3.1 0)
+		(layer "F.Fab")
+		(uuid "acb45cf0-d831-4ce5-90d6-12cdc91fb943")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.935 -0.65 90)
+		(size 0.35 0.43)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "76beb32c-9317-4e5c-89b1-55bb26ab51ff")
+	)
+	(pad "2" smd rect
+		(at -0.935 0 90)
+		(size 0.35 0.43)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "7ecf4b9f-4868-4130-97a9-adafb3ed0d59")
+	)
+	(pad "3" smd rect
+		(at -0.935 0.65 90)
+		(size 0.35 0.43)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "08595672-a09f-49d6-a650-8e3c77f460bd")
+	)
+	(pad "4" smd rect
+		(at 0.935 0.65 90)
+		(size 0.35 0.43)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "55444131-2731-45b5-af8b-5f073d54be89")
+	)
+	(pad "5" smd rect
+		(at 0.935 0 90)
+		(size 0.35 0.43)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "b4f9e726-c13c-42d0-9351-a6944be1f1a4")
+	)
+	(pad "6" smd rect
+		(at 0.935 -0.65 90)
+		(size 0.35 0.43)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "73a990bc-221c-43ba-b084-ad46bb633c5d")
+	)
+	(pad "7" smd rect
+		(at 0 -0.285)
+		(size 1.1 1.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "710c6381-8c88-469b-934c-b907546ccbcd")
+	)
+	(pad "8" smd rect
+		(at 0 0.775 90)
+		(size 0.35 0.66)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "51112f51-18d2-44e4-a74f-4db1db5fe6b5")
+	)
+	(model "${SPINALI_3DMODEL_DIR}/BUK6D56-60EX.stp"
+		(offset
+			(xyz -1.489999987 0.8600000014 1.279999952)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 0 90)
+		)
+	)
+)
