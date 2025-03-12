@@ -147,7 +147,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "D"
-			(at 5.08 7.366 0)
+			(at 0.762 6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -156,7 +156,7 @@
 			)
 		)
 		(property "Value" "PESD2IVN24-UX"
-			(at 5.08 4.826 0)
+			(at 0.762 3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -164,8 +164,8 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "Diodes:SOT65P210X110-3N"
-			(at 11.684 -8.636 0)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70"
+			(at 9.398 -10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -175,7 +175,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESD2IVN24-U.pdf"
-			(at 11.43 -10.668 0)
+			(at 9.144 -12.192 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -185,7 +185,7 @@
 			)
 		)
 		(property "Description" "ESD protection for In-vehicle networks SOT323 SC-70 VRWM = 24 V -55C ~ 150C"
-			(at 11.684 -13.716 0)
+			(at 9.398 -15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -193,121 +193,13 @@
 				(hide yes)
 			)
 		)
-		(symbol "PESD2IVN24-UX_0_1"
+		(symbol "PESD2IVN24-UX_0_0"
 			(polyline
 				(pts
-					(xy 6.35 -5.08) (xy 8.89 -5.08)
+					(xy 8.89 -1.27) (xy 8.89 0)
 				)
 				(stroke
 					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 8.89 0) (xy 6.35 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 15.24 -2.54) (xy 16.51 -2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 8.89 -6.35) (xy 11.43 -5.08) (xy 8.89 -3.81) (xy 8.89 -6.35)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 8.89 -1.27) (xy 11.43 0) (xy 8.89 1.27) (xy 8.89 -1.27)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 12.065 -6.985) (xy 11.43 -6.35) (xy 11.43 -3.81) (xy 10.795 -3.175)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 12.065 -1.905) (xy 11.43 -1.27) (xy 11.43 1.27) (xy 10.795 1.905)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 13.97 -5.08) (xy 15.24 -5.08) (xy 15.24 0) (xy 13.97 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 13.97 -3.81) (xy 11.43 -5.08) (xy 13.97 -6.35) (xy 13.97 -3.81)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 13.97 1.27) (xy 11.43 0) (xy 13.97 -1.27) (xy 13.97 1.27)
-				)
-				(stroke
-					(width 0.254)
 					(type default)
 				)
 				(fill
@@ -315,22 +207,84 @@
 				)
 			)
 		)
-		(symbol "PESD2IVN24-UX_1_1"
-			(rectangle
-				(start 6.35 2.54)
-				(end 16.51 -7.62)
+		(symbol "PESD2IVN24-UX_0_1"
+			(polyline
+				(pts
+					(xy 2.54 0) (xy 15.24 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.588 1.27) (xy 5.08 1.27) (xy 5.08 -1.27) (xy 4.572 -1.27)
+				)
 				(stroke
 					(width 0.254)
 					(type default)
 				)
 				(fill
-					(type background)
+					(type none)
 				)
 			)
+			(polyline
+				(pts
+					(xy 13.208 1.27) (xy 12.7 1.27) (xy 12.7 -1.27) (xy 12.192 -1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 1.27) (xy 7.62 -1.27) (xy 7.62 1.27) (xy 2.54 -1.27) (xy 2.54 1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 15.24 1.27) (xy 10.16 -1.27) (xy 10.16 1.27) (xy 15.24 -1.27) (xy 15.24 1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 8.89 0)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+		)
+		(symbol "PESD2IVN24-UX_1_1"
 			(pin passive line
-				(at 1.27 0 0)
-				(length 5.08)
-				(name "K1"
+				(at 0 0 0)
+				(length 2.54)
+				(name "A1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -346,9 +300,9 @@
 				)
 			)
 			(pin passive line
-				(at 1.27 -5.08 0)
-				(length 5.08)
-				(name "K2"
+				(at 17.78 0 180)
+				(length 2.54)
+				(name "A2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -364,9 +318,9 @@
 				)
 			)
 			(pin passive line
-				(at 21.59 -2.54 180)
-				(length 5.08)
-				(name "K"
+				(at 8.89 -3.81 90)
+				(length 2.54)
+				(name "common"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -389,7 +343,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "D"
-			(at 5.08 7.366 0)
+			(at 0.254 6.604 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -398,7 +352,7 @@
 			)
 		)
 		(property "Value" "VETH100A203S-G3-18"
-			(at 5.08 4.826 0)
+			(at 0.254 4.064 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -407,7 +361,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 11.684 -8.636 0)
+			(at 9.144 -10.414 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -417,7 +371,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/86319/veth100a203s.pdf"
-			(at 11.43 -10.668 0)
+			(at 8.89 -12.446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -427,7 +381,7 @@
 			)
 		)
 		(property "Description" "34V (Typ) Clamp Ipp Tvs Diode Surface Mount SOT-23-3"
-			(at 11.684 -13.716 0)
+			(at 9.144 -15.494 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -435,121 +389,13 @@
 				(hide yes)
 			)
 		)
-		(symbol "VETH100A203S-G3-18_0_1"
+		(symbol "VETH100A203S-G3-18_0_0"
 			(polyline
 				(pts
-					(xy 6.35 -5.08) (xy 8.89 -5.08)
+					(xy 8.89 -1.27) (xy 8.89 0)
 				)
 				(stroke
 					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 8.89 0) (xy 6.35 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 15.24 -2.54) (xy 16.51 -2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 8.89 -6.35) (xy 11.43 -5.08) (xy 8.89 -3.81) (xy 8.89 -6.35)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 8.89 -1.27) (xy 11.43 0) (xy 8.89 1.27) (xy 8.89 -1.27)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 12.065 -6.985) (xy 11.43 -6.35) (xy 11.43 -3.81) (xy 10.795 -3.175)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 12.065 -1.905) (xy 11.43 -1.27) (xy 11.43 1.27) (xy 10.795 1.905)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 13.97 -5.08) (xy 15.24 -5.08) (xy 15.24 0) (xy 13.97 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 13.97 -3.81) (xy 11.43 -5.08) (xy 13.97 -6.35) (xy 13.97 -3.81)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 13.97 1.27) (xy 11.43 0) (xy 13.97 -1.27) (xy 13.97 1.27)
-				)
-				(stroke
-					(width 0.254)
 					(type default)
 				)
 				(fill
@@ -557,22 +403,84 @@
 				)
 			)
 		)
-		(symbol "VETH100A203S-G3-18_1_1"
-			(rectangle
-				(start 6.35 2.54)
-				(end 16.51 -7.62)
+		(symbol "VETH100A203S-G3-18_0_1"
+			(polyline
+				(pts
+					(xy 2.54 0) (xy 15.24 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.588 1.27) (xy 5.08 1.27) (xy 5.08 -1.27) (xy 4.572 -1.27)
+				)
 				(stroke
 					(width 0.254)
 					(type default)
 				)
 				(fill
-					(type background)
+					(type none)
 				)
 			)
+			(polyline
+				(pts
+					(xy 13.208 1.27) (xy 12.7 1.27) (xy 12.7 -1.27) (xy 12.192 -1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 1.27) (xy 7.62 -1.27) (xy 7.62 1.27) (xy 2.54 -1.27) (xy 2.54 1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 15.24 1.27) (xy 10.16 -1.27) (xy 10.16 1.27) (xy 15.24 -1.27) (xy 15.24 1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 8.89 0)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+		)
+		(symbol "VETH100A203S-G3-18_1_1"
 			(pin passive line
-				(at 1.27 0 0)
-				(length 5.08)
-				(name "K1"
+				(at 0 0 0)
+				(length 2.54)
+				(name "A1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -588,9 +496,9 @@
 				)
 			)
 			(pin passive line
-				(at 1.27 -5.08 0)
-				(length 5.08)
-				(name "K2"
+				(at 17.78 0 180)
+				(length 2.54)
+				(name "A2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -606,9 +514,9 @@
 				)
 			)
 			(pin passive line
-				(at 21.59 -2.54 180)
-				(length 5.08)
-				(name "K"
+				(at 8.89 -3.81 90)
+				(length 2.54)
+				(name "common"
 					(effects
 						(font
 							(size 1.27 1.27)
