@@ -3308,7 +3308,7 @@
 				)
 			)
 			(pin passive line
-				(at 22.86 0 180)
+				(at 22.86 -7.62 180)
 				(length 5.08)
 				(name "VCP"
 					(effects
@@ -3326,7 +3326,7 @@
 				)
 			)
 			(pin passive line
-				(at 22.86 0 180)
+				(at 22.86 -7.62 180)
 				(length 5.08) hide
 				(name "VCP"
 					(effects
@@ -3380,7 +3380,7 @@
 				)
 			)
 			(pin passive line
-				(at 22.86 0 180)
+				(at 22.86 -7.62 180)
 				(length 5.08) hide
 				(name "VCP"
 					(effects
@@ -3398,7 +3398,7 @@
 				)
 			)
 			(pin passive line
-				(at 22.86 -7.62 180)
+				(at 22.86 0 180)
 				(length 5.08)
 				(name "VBUS"
 					(effects
@@ -3452,7 +3452,7 @@
 				)
 			)
 			(pin passive line
-				(at 22.86 -7.62 180)
+				(at 22.86 0 180)
 				(length 5.08) hide
 				(name "VBUS"
 					(effects
@@ -3470,7 +3470,7 @@
 				)
 			)
 			(pin passive line
-				(at 22.86 -7.62 180)
+				(at 22.86 0 180)
 				(length 5.08) hide
 				(name "VBUS"
 					(effects
