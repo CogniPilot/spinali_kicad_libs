@@ -81,6 +81,17 @@
 		(uuid "7b9fc136-d5d3-4e9f-a068-a2b4ff226829")
 	)
 	(fp_rect
+		(start -0.2 -0.35)
+		(end 3.25 2.35)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "007eac2f-be8e-40b6-9aca-252f3b958f36")
+	)
+	(fp_rect
 		(start -0.075 -0.25)
 		(end 3.125 2.25)
 		(stroke
@@ -135,5 +146,16 @@
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "272f131c-0ee7-4d60-afab-052a46cb7d59")
+	)
+	(model "${SPINALI_3DMODEL_DIR}/IFLN1210BEER512N.stp"
+		(offset
+			(xyz 1.5 -1 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
 	)
 )
