@@ -1,0 +1,227 @@
+(footprint "ACM70603012PLTL01"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "ACM7060")
+	(tags "Filter")
+	(property "Reference" "REF**"
+		(at 0 -4.3 0)
+		(layer "F.SilkS")
+		(uuid "5a7d2e32-3449-41ff-8ec0-83a56d254d58")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "ACM70603012PLTL01"
+		(at 0 6.7 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "edef61ba-ff88-4ab1-afd1-e26aa0111cc4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bc6dcbb6-a750-43f3-a235-f95ffd9958b0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bc2f8ad6-4182-46d3-b693-568fc315904d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9ea16f23-83ac-446e-bc65-6406f7bd5573")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -5 -1.6)
+		(end -5 -1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1c53070e-d6a1-48e4-9f9d-a02901695969")
+	)
+	(fp_line
+		(start -4.9 -1.6)
+		(end -4.9 -1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bc349863-153c-4f31-8501-8395cd8bad09")
+	)
+	(fp_line
+		(start -3.5 -3)
+		(end 3.5 -3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cdaab9e5-1c47-4f01-96c9-a2b301935ab2")
+	)
+	(fp_line
+		(start -3.5 3)
+		(end 3.5 3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e81b263b-b244-4b29-a7f0-636942af9707")
+	)
+	(fp_arc
+		(start -5 -1.6)
+		(mid -4.95 -1.65)
+		(end -4.9 -1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8599db28-fe9e-4461-a1d5-a05589f1765d")
+	)
+	(fp_arc
+		(start -4.9 -1.6)
+		(mid -4.95 -1.55)
+		(end -5 -1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e5c619e3-eca3-4533-971d-2d74a0e8c1ea")
+	)
+	(fp_rect
+		(start -3.7 -3.2)
+		(end 3.7 3.2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "287ed3b2-8e0b-4008-bfbf-97ab3b0da590")
+	)
+	(fp_line
+		(start -3.5 -3)
+		(end 3.5 -3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "064df436-7dce-4187-80cc-bfab5b556034")
+	)
+	(fp_line
+		(start -3.5 3)
+		(end -3.5 -3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f552816e-f5e0-4813-a452-a84bf9189320")
+	)
+	(fp_line
+		(start 3.5 -3)
+		(end 3.5 3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cee88cfb-9ac8-445f-9894-5c385eafaa77")
+	)
+	(fp_line
+		(start 3.5 3)
+		(end -3.5 3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "25e5b50f-7ab3-466b-8303-504abce39b8b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 4.4 0)
+		(layer "F.Fab")
+		(uuid "b17bfd93-aa77-42d3-9ec1-01bce84fc5af")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -3.25 -1.5 90)
+		(size 1.5 2.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "6a2d48ec-9ea4-4bdf-a785-0eb04b7aa2b6")
+	)
+	(pad "2" smd rect
+		(at -3.25 1.5 90)
+		(size 1.5 2.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "d2036c1f-c50d-41b3-a542-fb879294fce4")
+	)
+	(pad "3" smd rect
+		(at 3.25 1.5 90)
+		(size 1.5 2.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "490d7be0-89f2-4d33-a09d-ecf387a7e120")
+	)
+	(pad "4" smd rect
+		(at 3.25 -1.5 90)
+		(size 1.5 2.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "071be02e-a3a7-4de1-a878-f72cf20808d7")
+	)
+	(model "${SPINALI_3DMODEL_DIR}/ACM7060-301-2PL-TL01.stp"
+		(offset
+			(xyz -4.550000122 4.179999766 -7.369999775)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -90)
+		)
+	)
+)

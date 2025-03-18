@@ -54,76 +54,6 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "0.65"
-			(at 21.59 -394.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Nexperia"
-			(at 21.59 -494.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "BUK6D56-60EX"
-			(at 21.59 -594.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "771-BUK6D56-60EX"
-			(at 21.59 -694.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nexperia/BUK6D56-60EX?qs=vLWxofP3U2wv8ZXbVEEyQA%3D%3D"
-			(at 21.59 -794.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "BUK6D56-60EX"
-			(at 21.59 -894.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/buk6d56-60ex/nexperia?region=nac"
-			(at 21.59 -994.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
 		(symbol "BUK6D56-60EX_0_1"
 			(polyline
 				(pts
@@ -288,7 +218,7 @@
 			)
 			(pin passive line
 				(at 7.62 5.08 270)
-				(length 5.08) hide
+				(length 2.54) hide
 				(name "D_2"
 					(effects
 						(font
@@ -342,7 +272,7 @@
 			)
 			(pin passive line
 				(at 7.62 5.08 270)
-				(length 5.08) hide
+				(length 2.54) hide
 				(name "D_3"
 					(effects
 						(font
@@ -360,7 +290,7 @@
 			)
 			(pin passive line
 				(at 7.62 5.08 270)
-				(length 5.08) hide
+				(length 2.54) hide
 				(name "D_4"
 					(effects
 						(font
@@ -378,7 +308,7 @@
 			)
 			(pin passive line
 				(at 7.62 5.08 270)
-				(length 5.08) hide
+				(length 2.54) hide
 				(name "D_5"
 					(effects
 						(font
@@ -396,7 +326,7 @@
 			)
 			(pin passive line
 				(at 7.62 -5.08 90)
-				(length 5.08) hide
+				(length 2.54) hide
 				(name "S_2"
 					(effects
 						(font
