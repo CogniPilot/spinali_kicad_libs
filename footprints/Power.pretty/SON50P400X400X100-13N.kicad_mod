@@ -6,13 +6,13 @@
 	(descr "DNT0012B_-")
 	(tags "Integrated Circuit")
 	(property "Reference" "REF**"
-		(at 0 -3.2 0)
+		(at 0 -2.9 0)
 		(layer "F.SilkS")
 		(uuid "d2dea346-c92f-4fe1-959f-be9b50b5f40d")
 		(effects
 			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
+				(size 1 1)
+				(thickness 0.15)
 			)
 		)
 	)

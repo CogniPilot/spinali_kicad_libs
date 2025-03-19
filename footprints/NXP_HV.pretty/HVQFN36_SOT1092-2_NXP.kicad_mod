@@ -5,7 +5,7 @@
 	(layer "F.Cu")
 	(tags "TJA1100HNZ ")
 	(property "Reference" "REF**"
-		(at 0 0 0)
+		(at 0 -4.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "dfcb00cc-0dd2-465b-9a69-ff52f422952f")
@@ -2035,18 +2035,6 @@
 		(at -3.9878 -2.25 0)
 		(layer "F.SilkS")
 		(uuid "df49f889-b4a6-4f1c-b451-e790bbde0b65")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "REF**"
-		(at 0 -4.5 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "e73fa1c8-f4e4-454b-b9e3-990e40ade5dd")
 		(effects
 			(font
 				(size 1 1)

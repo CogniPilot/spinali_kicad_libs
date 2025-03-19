@@ -6,13 +6,13 @@
 	(descr "UDFN10 2.5x1, 0.5P CASE 517BB−01 ISSUE O")
 	(tags "TVS Diode (Uni-directional)")
 	(property "Reference" "REF**"
-		(at 0 -1.6 0)
+		(at 0 -1.4 0)
 		(layer "F.SilkS")
 		(uuid "4cce53ee-9bfa-418d-8599-843ec5b1f0af")
 		(effects
 			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
+				(size 1 1)
+				(thickness 0.15)
 			)
 		)
 	)

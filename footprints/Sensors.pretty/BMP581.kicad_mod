@@ -6,13 +6,13 @@
 	(descr "BMP581-7")
 	(tags "Undefined or Miscellaneous")
 	(property "Reference" "REF**"
-		(at 0 -2 0)
+		(at 0 -1.8 0)
 		(layer "F.SilkS")
 		(uuid "dacca5c2-9907-43c7-bffb-d9abd859f3ad")
 		(effects
 			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
+				(size 1 1)
+				(thickness 0.15)
 			)
 		)
 	)

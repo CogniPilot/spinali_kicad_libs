@@ -4,17 +4,16 @@
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at -1.7 7.4 0)
+		(at 0 -6.8 0)
 		(unlocked yes)
-		(layer "Eco1.User")
-		(hide yes)
+		(layer "F.SilkS")
 		(uuid "7b526676-c1ac-463e-9ccd-3aaae5f978a8")
 		(effects
 			(font
-				(size 0.635 0.635)
-				(thickness 0.04064)
+				(size 1 1)
+				(thickness 0.15)
 			)
-			(justify left bottom)
+			(justify bottom)
 		)
 	)
 	(property "Value" "MCXN947VDFT_BGA_184P_BGA184_0P5_9X9_SM_IC_0.98 MM_TMP-CIP-10342_MCXN947VDFT"
@@ -496,19 +495,6 @@
 		)
 		(layer "User.9")
 		(uuid "99e98e52-b185-4e77-b2cb-f9b452ea1a4f")
-	)
-	(fp_text user "REF**"
-		(at -5.4 -6.8 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "04db2865-e2c2-441a-94cf-911dd447c82f")
-		(effects
-			(font
-				(size 0.762 0.762)
-				(thickness 0.0762)
-			)
-			(justify left bottom)
-		)
 	)
 	(fp_text user "A"
 		(at -5.842 -3.937 0)

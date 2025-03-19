@@ -6,13 +6,13 @@
 	(descr "BUK6D56-60EX")
 	(tags "MOSFET (N-Channel)")
 	(property "Reference" "Q**"
-		(at 0 -2.1 0)
+		(at 0 -1.9 0)
 		(layer "F.SilkS")
 		(uuid "b40e1418-166e-4ce6-8868-2a26706a81f4")
 		(effects
 			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
+				(size 1 1)
+				(thickness 0.15)
 			)
 		)
 	)
