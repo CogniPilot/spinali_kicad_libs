@@ -1,0 +1,233 @@
+(footprint "PESD1USB3BCX"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "WLCSP5_2-1-2")
+	(tags "Diode")
+	(property "Reference" "REF**"
+		(at 0 -1.4 0)
+		(layer "F.SilkS")
+		(uuid "2b68c2e7-f8dc-45fd-8dd3-f4870e965eaa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "PESD1USB3BCX"
+		(at 0 4.3 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "21fe5bee-ae0b-4593-bf9f-5181d3bccb2f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "eed949f3-bdcb-4998-89ea-fcaca03432ac")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4b666fc9-dd63-4551-88db-ea12e5849a45")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "964e2064-6a19-4804-9512-ab46a92db725")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.65 -0.45)
+		(end -0.65 -0.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "15f56508-7b45-4adc-883f-b0f3b275d7c2")
+	)
+	(fp_line
+		(start -0.65 -0.35)
+		(end -0.65 -0.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "408b8fd3-71da-4fec-b98f-07e36bf4807d")
+	)
+	(fp_line
+		(start -0.4 -0.2)
+		(end -0.4 0.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7ec3e49e-3e22-4941-b974-02bc66132679")
+	)
+	(fp_line
+		(start 0.385 -0.2)
+		(end 0.385 0.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a8a77954-f7ee-4d98-bdf9-018568756576")
+	)
+	(fp_arc
+		(start -0.65 -0.45)
+		(mid -0.6 -0.4)
+		(end -0.65 -0.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "58c0eca7-e956-48ae-80b5-afa367079acf")
+	)
+	(fp_arc
+		(start -0.65 -0.35)
+		(mid -0.7 -0.4)
+		(end -0.65 -0.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "07401816-7aa0-4483-bd11-15fca6744454")
+	)
+	(fp_rect
+		(start -0.5 -0.7)
+		(end 0.5 0.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "02c8dfba-c01a-483b-89a6-b102f0aefe03")
+	)
+	(fp_line
+		(start -0.385 -0.585)
+		(end 0.385 -0.585)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "720e4986-2496-4fe3-8bcc-96323a2a8293")
+	)
+	(fp_line
+		(start -0.385 0.585)
+		(end -0.385 -0.585)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ae68644f-ce1b-45b6-a2b0-84f5d7b9c3e0")
+	)
+	(fp_line
+		(start 0.385 -0.585)
+		(end 0.385 0.585)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "07a0d651-3180-4b0f-8950-e2bab94a5708")
+	)
+	(fp_line
+		(start 0.385 0.585)
+		(end -0.385 0.585)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "172f1c8b-9df1-4cbd-8370-cabc8b8d5e5b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.1 0)
+		(layer "F.Fab")
+		(uuid "5e2c11fb-9bef-43a1-8e93-3a0574757eaf")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "A1" smd circle
+		(at -0.2 -0.4 90)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "4549b9e7-713c-4c00-ad50-9f3e0cc04260")
+	)
+	(pad "A2" smd circle
+		(at 0.2 -0.4 90)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "45d8cc51-4879-463b-9c8a-0f8eac8ca235")
+	)
+	(pad "B1" smd circle
+		(at 0 0 90)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "0d8d45a8-ff8a-44fc-8f93-fd256ce9a7eb")
+	)
+	(pad "C1" smd circle
+		(at -0.2 0.4 90)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "736d339b-4393-47b0-b2fb-406d984865aa")
+	)
+	(pad "C2" smd circle
+		(at 0.2 0.4 90)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "a5777466-160f-499a-a98f-8a6c1b1462e1")
+	)
+	(model "${SPINALI_3DMODEL_DIR}/PCMF1USB3SZ.stp"
+		(offset
+			(xyz 0 0 0.2)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

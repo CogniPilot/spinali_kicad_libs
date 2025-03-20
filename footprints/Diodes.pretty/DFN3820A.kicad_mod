@@ -146,4 +146,15 @@
 		(roundrect_rratio 0.08164598302)
 		(uuid "7e686944-c3f5-4d5b-a0db-359d63780cef")
 	)
+	(model "${SPINALI_3DMODEL_DIR}/6DFN62CA-M3_I.stp"
+		(offset
+			(xyz -0.6 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

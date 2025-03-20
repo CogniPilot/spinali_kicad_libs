@@ -154,4 +154,15 @@
 			)
 		)
 	)
+	(model "${SPINALI_3DMODEL_DIR}/TS2306A-240GF-MSM-9_C388290.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
