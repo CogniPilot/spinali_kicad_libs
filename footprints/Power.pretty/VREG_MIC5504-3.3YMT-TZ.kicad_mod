@@ -201,54 +201,6 @@
 		(layer "F.SilkS")
 		(uuid "e28bfd5c-6db2-4ac3-a1e0-0dc333b1c4d4")
 	)
-	(fp_poly
-		(pts
-			(xy -0.39 -0.1) (xy -0.75 -0.1) (xy -0.75 -0.55) (xy 0.06 -0.55)
-		)
-		(stroke
-			(width 0.001)
-			(type solid)
-		)
-		(fill solid)
-		(layer "F.Mask")
-		(uuid "d5aff7fe-cc39-4a59-bbf3-80aab4edc2d8")
-	)
-	(fp_poly
-		(pts
-			(xy -0.75 0.1) (xy -0.75 0.55) (xy -0.15 0.55) (xy -0.15 0.34) (xy -0.39 0.1)
-		)
-		(stroke
-			(width 0.001)
-			(type solid)
-		)
-		(fill solid)
-		(layer "F.Mask")
-		(uuid "ba5440bf-c345-4fe3-ae1d-a18a960c5cef")
-	)
-	(fp_poly
-		(pts
-			(xy 0.75 -0.1) (xy 0.75 -0.55) (xy 0.15 -0.55) (xy 0.15 -0.34) (xy 0.39 -0.1)
-		)
-		(stroke
-			(width 0.001)
-			(type solid)
-		)
-		(fill solid)
-		(layer "F.Mask")
-		(uuid "7e7001d3-8b87-4d74-a6a8-758374be5b50")
-	)
-	(fp_poly
-		(pts
-			(xy 0.75 0.1) (xy 0.75 0.55) (xy 0.15 0.55) (xy 0.15 0.34) (xy 0.39 0.1)
-		)
-		(stroke
-			(width 0.001)
-			(type solid)
-		)
-		(fill solid)
-		(layer "F.Mask")
-		(uuid "29689215-501c-4be2-b64f-9b853d4ac6f5")
-	)
 	(fp_line
 		(start -0.9 -0.75)
 		(end -0.9 0.75)
@@ -332,7 +284,7 @@
 	(pad "1" smd custom
 		(at -0.51 -0.327)
 		(size 0.1 0.1)
-		(layers "F.Cu")
+		(layers "F.Cu" "F.Paste" "F.Mask")
 		(options
 			(clearance outline)
 			(anchor rect)
@@ -351,7 +303,7 @@
 	(pad "2" smd custom
 		(at -0.513 0.339)
 		(size 0.1 0.1)
-		(layers "F.Cu")
+		(layers "F.Cu" "F.Paste" "F.Mask")
 		(options
 			(clearance outline)
 			(anchor rect)
@@ -370,7 +322,7 @@
 	(pad "3" smd custom
 		(at 0.518 0.346)
 		(size 0.1 0.1)
-		(layers "F.Cu")
+		(layers "F.Cu" "F.Paste" "F.Mask")
 		(options
 			(clearance outline)
 			(anchor rect)
@@ -389,7 +341,7 @@
 	(pad "4" smd custom
 		(at 0.512 -0.329)
 		(size 0.1 0.1)
-		(layers "F.Cu")
+		(layers "F.Cu" "F.Paste" "F.Mask")
 		(options
 			(clearance outline)
 			(anchor rect)
@@ -409,7 +361,6 @@
 		(at 0 0 315)
 		(size 0.48 0.48)
 		(layers "F.Cu" "F.Paste" "F.Mask")
-		(solder_mask_margin 0.102)
 		(uuid "0aea57ab-9718-45ee-ac2a-40dd455ce3ab")
 	)
 	(model "${SPINALI_3DMODEL_DIR}/MIC5504-1.8YMT-TR.step"
