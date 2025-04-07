@@ -2116,9 +2116,9 @@
 					)
 				)
 			)
-			(pin no_connect line
+			(pin bidirectional line
 				(at 10.16 1.27 180)
-				(length 5.08) hide
+				(length 5.08)
 				(name "RESV"
 					(effects
 						(font
