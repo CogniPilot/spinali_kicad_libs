@@ -1,4 +1,4 @@
-(footprint "IC_ICM-45686"
+(footprint "IC_ICM-42688-P"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -14,7 +14,7 @@
 			)
 		)
 	)
-	(property "Value" "IC_ICM-45686"
+	(property "Value" "IC_ICM-42688-P"
 		(at 5.12 2.635 0)
 		(layer "F.Fab")
 		(uuid "4fb1631f-a079-4a37-9d50-a494a21dfeb8")
@@ -529,7 +529,7 @@
 			)
 		)
 	)
-	(model "${SPINALI_3DMODEL_DIR}/ICM-456860.step"
+	(model "${SPINALI_3DMODEL_DIR}/ICM-42688-P.stp"
 		(offset
 			(xyz 0 0 0)
 		)

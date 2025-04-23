@@ -1519,7 +1519,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Sensors:PQFN50P300X250X97-14N"
+		(property "Footprint" "Sensors:IC_ICM-42688-P"
 			(at 0 -21.336 0)
 			(effects
 				(font
@@ -1529,8 +1529,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at -5.08 2.54 0)
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/sensor/mortion-inertial/imu/data_sheet/ds-000347-icm-42688-p-v1.6.pdf"
+			(at 0 -29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
