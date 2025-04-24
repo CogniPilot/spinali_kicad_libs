@@ -115,7 +115,6 @@
 		(size 0.5 1.65)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
-		(thermal_bridge_angle 45)
 		(uuid "e793d8f9-78e6-4c35-8d18-59f881b33e7f")
 	)
 	(pad "2" smd roundrect
@@ -123,7 +122,6 @@
 		(size 0.5 1.65)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
-		(thermal_bridge_angle 45)
 		(uuid "2b6f5b67-ca89-433f-96e6-a1754e172b14")
 	)
 	(model "${SPINALI_3DMODEL_DIR}/NANOT160AS.stp"
