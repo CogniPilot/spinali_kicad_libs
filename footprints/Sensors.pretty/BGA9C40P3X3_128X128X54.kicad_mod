@@ -168,6 +168,46 @@
 		(uuid "34ab9b5a-d81e-49d1-8b71-58b8659c1a11")
 	)
 	(fp_line
+		(start -0.5 -4)
+		(end 0 -4.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "8c5433b8-e42e-4134-a133-d2a452ff21de")
+	)
+	(fp_line
+		(start 0 -4.5)
+		(end -0.5 -4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "ec153137-e936-4491-acd6-f5d06858b0f3")
+	)
+	(fp_line
+		(start 0 -1.5)
+		(end 0 -4.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "cf2cc518-187c-479f-97f7-fe2756f79b49")
+	)
+	(fp_line
+		(start 0.5 -4)
+		(end 0 -4.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "d97f2edf-2293-4e24-964b-6609f62b3952")
+	)
+	(fp_line
 		(start 0.64 -0.64)
 		(end 0.64 0.64)
 		(stroke
@@ -187,6 +227,58 @@
 		(layer "F.Fab")
 		(uuid "e7a60125-5c06-4457-bd9c-6177ae1efee2")
 	)
+	(fp_line
+		(start 1.5 0)
+		(end 4.5 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "fe0e794a-0a9b-4c55-8c99-e6dbd1b0e785")
+	)
+	(fp_line
+		(start 4 -0.5)
+		(end 4.5 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "5df3ce0b-add1-4fe3-95cb-9f67049505c5")
+	)
+	(fp_line
+		(start 4 0.5)
+		(end 4.5 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "561aac21-5051-4d73-bd67-6e96a7fe9003")
+	)
+	(fp_line
+		(start 4.5 0)
+		(end 4 -0.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "df1a243e-eb56-4519-85da-1b2ce1ca2631")
+	)
+	(fp_text user "X"
+		(at 0 -5.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "0f8b6fb2-f808-4761-bb5d-652a3af8f09c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(fp_text user "${REFERENCE}"
 		(at 0 1.9 0)
 		(layer "F.Fab")
@@ -195,6 +287,18 @@
 			(font
 				(size 1.27 1.27)
 				(thickness 0.254)
+			)
+		)
+	)
+	(fp_text user "Y"
+		(at 5.5 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "454cc58b-36ec-4c76-aad7-ecfa8bf1491e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
 			)
 		)
 	)

@@ -354,15 +354,15 @@
 		(thermal_bridge_angle 45)
 		(uuid "ad6721f2-bc8b-4cfa-b248-bc242aa097bd")
 	)
-	(model "${SPINALI_3DMODEL_DIR}/PAA3905.step"
+	(model "${SPINALI_3DMODEL_DIR}/PAA3905E1-Q.STEP"
 		(offset
-			(xyz 0 0 0)
+			(xyz -1.29 -0.85 0.6)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -90 0 0)
 		)
 	)
 )
