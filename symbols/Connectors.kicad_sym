@@ -2553,7 +2553,7 @@
 			)
 		)
 		(symbol "Battery_Cell-RPI_1_1"
-			(text "MT"
+			(text "MP"
 				(at -5.08 1.27 0)
 				(effects
 					(font
@@ -2582,7 +2582,7 @@
 			(pin passive line
 				(at -3.81 -2.54 90)
 				(length 2.54)
-				(name "MT"
+				(name "MP"
 					(effects
 						(font
 							(size 1.27 1.27)
