@@ -13,11 +13,12 @@ parser.add_argument("-k", "--kicad_ver", type=str, default="9.0", help="Kicad ve
 parser.add_argument("-a", "--kicad_alias", type=str, default="SPINALI", help="Library alias name (defaults SPINALI)")
 args = parser.parse_args()
 
-lib_path = os.path.dirname(os.path.abspath(__file__))
+lib_path = os.path.dirname(os.path.abspath(__file__)).replace("\\","/")
 
 if platform.system() == 'Windows':
     print("Running on Windows")
-    kicad_config_file = os.path.abspath(f"%Appdata%/kicad/{args.kicad_ver}/kicad_common.json")
+    APP_PATH=os.getenv('APPDATA').replace("\\","/")
+    kicad_config_file = os.path.abspath(f"{APP_PATH}/kicad/{args.kicad_ver}/kicad_common.json").replace("\\","/")
 elif platform.system() == 'Linux':
     print("Running on Linux")
     kicad_config_file = os.path.abspath(os.path.expanduser(f"~/.config/kicad/{args.kicad_ver}/kicad_common.json"))
