@@ -334,15 +334,15 @@
 		(uuid "468e592a-50d2-4dba-9203-c6e7a8fb7a6f")
 	)
 	(embedded_fonts no)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_JST.3dshapes/JST_SH_BM02B-SRSS-TB_1x02-1MP_P1.00mm_Vertical.wrl"
+	(model "${KICAD_SPINALI}/3dmodels/SMxxB-SRSS-TB/SM02B-SRSS-TB.STEP"
 		(offset
-			(xyz 0 0 0)
+			(xyz 0 -0.5 -0.3)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -90 -0 180)
 		)
 	)
 )
